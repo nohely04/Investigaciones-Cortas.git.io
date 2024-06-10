@@ -1,9 +1,41 @@
-
-#Principal{
-    text-align: center; 
+#Principal {
+    text-align: center;
     margin: 0 auto;
 }
-#pie-pagina{
+
+#pie-pagina {
     background-color: bisque;
     margin-right: 800px;
+}
+
+header,
+header img {
+    text-align: center;
+}
+
+#definicion-accesibilidad img {
+    float: center;
+    margin-left: 380px;
+}
+
+#frase {
+    text-align: center;
+}
+
+footer {
+    background-color: beige;
+}
+
+section {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+#importancia-accesibilidad img {
+    float: center;
+    margin-left: 380px;
+}
+#principios-accesibilidad img{
+    float: center;
+    margin-left: 380px;
 }
