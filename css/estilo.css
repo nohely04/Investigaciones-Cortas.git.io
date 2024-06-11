@@ -1,16 +1,58 @@
+@font-face {
+    font-family: 'Eyesome Scrip';
+    src: url('../fonts/Eyesome\ Script.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #Principal {
     text-align: center;
-    margin: 0 auto;
+    padding: 10px;
+    padding-left: 50px;
+    size-adjust: 20px;
+    font-family: Eyesome Scrip;
+    font-size: 20px;
 }
 
 #pie-pagina {
-    background-color: bisque;
-    margin-right: 800px;
+    background-color: #E895FF;
+    font-family: Montserrat Light;
 }
 
 header,
 header img {
     text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #E895FF;
+    overflow: hidden;
+    color: white;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #f4c9c9;
 }
 
 #definicion-accesibilidad img {
@@ -23,7 +65,14 @@ header img {
 }
 
 footer {
-    background-color: beige;
+    background-color: #F3C7FF;
+    font-family: Montserrat Light;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    position: relative;
+    z-index: 1;
+    color: white;
 }
 
 section {
@@ -35,11 +84,57 @@ section {
     float: center;
     margin-left: 380px;
 }
-#principios-accesibilidad img{
+
+#principios-accesibilidad img {
     float: center;
     margin-left: 380px;
 }
-#perceptible{
+
+#perceptible {
     text-align: center;
-    background-color:bisque;
+}
+
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    font-family: Montserrat Light;
+}
+
+.paginas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 25px;
+    margin-right: 1%;
+    float: left;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+.paginas img {
+    width: 100%;
+    height: 250px;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.titulo-detalle {
+    margin: 1%;
+    width: 100%;
+    line-height: 1em;
+    color: black;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Montserrat Light';
+
+}
+
+a {
+    color: white;
 }
