@@ -92,6 +92,23 @@ section {
 
 #perceptible {
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#operable {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#comprensible {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#robusto {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 h2,
