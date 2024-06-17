@@ -65,7 +65,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #F3C7FF;
+    background-color: #eba3ff;
     font-family: Montserrat Light;
     text-align: center;
     padding: 10px;
@@ -95,16 +95,19 @@ section {
     margin-left: 100px;
     margin-right: 100px;
 }
+
 #operable {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
 }
+
 #comprensible {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
 }
+
 #robusto {
     text-align: center;
     margin-left: 100px;
@@ -119,6 +122,10 @@ p,
 a {
     font-family: Montserrat Light;
 }
+h2{
+    text-align: center;
+}
+
 
 .paginas {
     display: flex;
@@ -154,4 +161,19 @@ a {
 
 a {
     color: white;
+}
+
+#definicion-duc img {
+    float: center;
+    margin-left: 380px;
+}
+
+#pasos-explicación p {
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#pasos-explicación img{
+    float: center;
+    margin-left: 380px;
 }
